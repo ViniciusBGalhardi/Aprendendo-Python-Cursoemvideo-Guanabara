@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'Seu nome com letras maiusculas: {nome.upper()}.')
+print(f'Seu nome com letras minusculas: {nome.lower()}.')
+separado = nome.split()
+junto = ''.join(separado)
+print(f'Seu nome tem {len(junto)} letras.')
+print(f'Seu primeiro nome é {separado[0]} e tem {len(separado[0])} letras.')

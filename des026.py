@@ -1,0 +1,5 @@
+frase = input('Digite uma frase: ')
+frase = frase.upper()
+print('A frase apresenta', frase.count('A'),'letras "A"')
+print('"A" aparece pela primeira vez na posição ',frase.find('A'),'ou seja o',frase.find('A') + 1,'º caracter')
+print('"A" aparece pela ultima vez na posição ', frase.rfind('A'),'ou seja o',frase.rfind('A') + 1,'º carcter')
